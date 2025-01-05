@@ -16,3 +16,7 @@ Dataset didapatkan dari [Roboflow](https://universe.roboflow.com/barry-aprtz/foo
 | epoch  | Imgsz | lr0  | lrf | Recall  | Precision | mAP50  | mAP50-95 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 150  | 1280  | 0.01  | 0.01 | 0.93347  | 0.8932  | 0.91624  | 0.60068  |
+
+## Hasil
+https://github.com/user-attachments/assets/b4da164d-1dcf-44f7-b0b1-34138a11158c
+
