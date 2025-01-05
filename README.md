@@ -3,8 +3,12 @@
 Dataset didapatkan dari [Roboflow](https://universe.roboflow.com/barry-aprtz/foodcart-dnty6) yang memiliki gambar gerobak atau food cart yang bervariasi.
 
 ## Environment
-- RTX A4000
-- Python 3.12
+- Quadro RTX 5000
+- Python 3.12.1
+- Pytorch 2.5.1
+- Torchvision 0.20.1
+- Torchaudio 2.5.1
+- Ultralytics 8.3.39
 
 ## Metrik Evaluasi
 ![results](https://github.com/user-attachments/assets/18e945e4-eb5d-4332-88e6-10b7ceb072e5)
