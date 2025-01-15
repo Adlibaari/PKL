@@ -2,9 +2,9 @@
 ## Dataset
 Dataset didapatkan dari gabungan dataset [Foodcart](https://universe.roboflow.com/barry-aprtz/foodcart-dnty6) dan [Street Vendor](https://universe.roboflow.com/barry-aprtz/street-vendors-6xixf-cll2s/dataset/1) yang memiliki gambar gerobak atau dan tenda yang bervariasi yang bervariasi. Persebaran data yang digunakan adalah sebagai berikut:  
 | Train  | 2744 | 
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- |
 | Validation | 420 | 
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- |
 | Test | 223 |
 
 ## Environment
