@@ -15,17 +15,22 @@ Dataset didapatkan dari gabungan dataset [Foodcart](https://universe.roboflow.co
 - Torchaudio 2.5.1
 - Ultralytics 8.3.39
 
-## Metrik Evaluasi
-![results](https://github.com/user-attachments/assets/18e945e4-eb5d-4332-88e6-10b7ceb072e5)
+## Hyper-parameter Tuning
+Hyper-parameter tuning dilakukan dengan menggunakan fungsi model.tune yang disediakan pada library ultralytics untuk mencari learning rate yang terbaik. Tuning dilakukan sebanyak 25 iterasi dengan masing-masing iterasi dijalankan selama 100 epoch.
 
-| epoch  | Imgsz | lr0  | lrf | Recall  | Precision | mAP50  | mAP50-95 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 150  | 1280  | 0.01  | 0.01 | 0.93347  | 0.8932  | 0.91624  | 0.60068  |
+## Metrik Evaluasi
+![image](https://github.com/user-attachments/assets/ef53ad62-411f-4897-ac25-de561737a5d9)
+
+| Model | epoch  | Imgsz | lr0  | lrf | Recall  | Precision | mAP50  | mAP50-95 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Baseline | 150  | 1280  | 0.01  | 0.01 | 0.89756  | 0.86928  | 0.917 | 0.61526  |
+| Hypertuned | 100  | 1280  | 0.0099  | 0.01016 | 0.90661  | 0.9103  | 0.93075 | 0.6401  |
 
 ## Hasil
-![image](https://github.com/user-attachments/assets/61c00312-5f34-40d8-83f6-51544ed585a6)
+![image](https://github.com/user-attachments/assets/d76d7601-a364-491a-9dcc-bcaee92a6ca0)
+![image](https://github.com/user-attachments/assets/a96f2026-b1e9-4b14-8cb6-1f29be5cfac0)
 
-https://github.com/user-attachments/assets/3b157895-afb4-46f3-abb6-a15ceef131dc
+
 
 
 
